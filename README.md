@@ -1,5 +1,7 @@
 # Отбор вин
 
+[Открыть приложение](https://mmda-hw3-danchikrybakov.streamlit.app/) · [Репозиторий GitHub](https://github.com/danchikrybakov/mmda-hw3-wine-app)
+
 Приложение использует лабораторные показатели, чтобы оценить вероятность качества не ниже 7 баллов. Модель — `StandardScaler` и `LogisticRegression`. Порог по умолчанию сохранён в `config.json`: примерно 0.23636. Он выбран на валидации внутри train: максимальный precision при recall не ниже 0.7.
 
 ## Локальный запуск
